@@ -1,0 +1,6 @@
+{
+  "dbUrl": "mongodb+srv://trunghieu0906:th1995090625@cluster0.u5zxh.mongodb.net/vexere?retryWrites=true&w=majority",
+  "port": 3000,
+  "sgAPIKey": "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",
+  "jwtSignature": "vexerejwt"
+}
