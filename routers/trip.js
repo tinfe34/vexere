@@ -89,9 +89,5 @@ router.get("/trip", auth(), async (req, res) => {
 
 router.post("/trip/booking", auth(), postBookTrip);
 
-router.get("/all-trip",async(req, res)=>{
-  const trips = await Trip.find();
-  res.send(trips);
-})
 
 module.exports = router;
