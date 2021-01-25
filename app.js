@@ -65,7 +65,7 @@ const app = express();
 const imagesFolderPath = path.join(__dirname, "images");
 
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: "https://api-vxr-tin.herokuapp.com/",
   optionsSuccessStatus: 200,
 }))
 
